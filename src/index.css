@@ -73,9 +73,9 @@ body {
   align-items: center;
   justify-content: center;
 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
   background-image: url(../src/assets/images/11852427_4858794.jpg);
   /* backdrop-filter: blur(12px); */
 }

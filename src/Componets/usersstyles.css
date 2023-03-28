@@ -39,6 +39,7 @@
 }
 .right-left {
   display: flex;
+  text-align: left;
   font-size: 0.9rem;
   justify-content: space-between;
 }

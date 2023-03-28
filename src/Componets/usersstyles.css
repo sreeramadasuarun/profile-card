@@ -1,0 +1,43 @@
+.card {
+  background-color: rgb(165, 200, 244);
+  color: rgb(6, 6, 79);
+  text-align: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cardcon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.allcard a {
+  text-decoration: none;
+}
+
+.allcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 697px) {
+  .cardcon {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+}
+.right-left {
+  display: flex;
+  font-size: 0.7rem;
+  justify-content: space-between;
+}
+.image {
+  width: 20rem;
+  height: 11rem;
+}

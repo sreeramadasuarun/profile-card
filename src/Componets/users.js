@@ -5,7 +5,7 @@ import "../Componets/usersstyles.css";
 const Users = () => {
   return (
     <div className="allcard">
-      <h1>Users</h1>
+      <h1>Users profile</h1>
       <div className="cardcon">
         {userdata.map(({ imgurl, name, id, username, email }) => {
           return (

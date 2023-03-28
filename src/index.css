@@ -19,7 +19,7 @@
   /* ....shadows... */
   --shadow-very-light: 0 15px 15px rgba(0, 0, 0, 0.071);
   --shadow-light: 0 5px 5px rgba(0, 0, 0, 0.1);
-  --shadow-dark: 0 25px 35px rgba(0, 0, 0, 0.192);
+  --shadow-dark: 0 25px 35px rgba(0, 0, 0, 0.304);
   /* ....fonts... */
   --ff-open-sans: "Open Sans", sans-serif;
   --ff-poppins: "Poppins", sans-serif;
@@ -67,7 +67,6 @@ html {
 
 body {
   font-family: var(--ff-Quicksand);
-  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;

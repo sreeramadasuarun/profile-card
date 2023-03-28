@@ -1,4 +1,4 @@
-export default [
+const userdata = [
   {
     id: 1,
     name: "K.G.F",
@@ -115,3 +115,4 @@ export default [
       "https://media1.popsugar-assets.com/files/thumbor/tS6c3oXAC7--Nm9XFJWzNWxGgFI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/07/01/076/n/46207611/tmp_YF8Suz_217bdaf4519e21ea_MCDAVEN_EC254.jpg",
   },
 ];
+export default userdata;

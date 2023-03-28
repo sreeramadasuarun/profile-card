@@ -12,7 +12,7 @@ const Users = () => {
             <div key={id}>
               <article className="card">
                 <div className="image">
-                  <img src={imgurl} alt="image" />
+                  <img src={imgurl} alt="noimage" />
                 </div>
                 <h3>{name}</h3>
 

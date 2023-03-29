@@ -7,25 +7,25 @@ const Users = () => {
     <div className="allcard">
       <h1>Users profile</h1>
       <div className="cardcon">
-        {userdata.map(({ imgurl, name, id, username, email }) => {
+        {userdata.map(({ Title, Country, Language, id, Poster }) => {
           return (
             <div key={id}>
               <article className="card">
                 <div className="image">
-                  <img src={imgurl} alt="noimage" />
+                  <img src={Poster} alt="noimage" />
                 </div>
-                <h3>{name}</h3>
+                <h3>{Title}</h3>
 
                 <div className="right-left">
                   <h4>
-                    username:
+                    Language:
                     <br />
-                    {username}
+                    {Language}
                   </h4>
                   <h4>
-                    email:
+                    Country:
                     <br />
-                    {email}
+                    {Country}
                   </h4>
                 </div>
               </article>
